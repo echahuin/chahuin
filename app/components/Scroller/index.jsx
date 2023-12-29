@@ -31,6 +31,7 @@ const Scroller = () => {
     <div className="scroller" >
     <ul className="tag-list scroller__inner">
       <li>  <Image
+          className="imageStyle"
           src="/css.svg"
           alt="devLogo Logo"
           width={250}
@@ -38,6 +39,7 @@ const Scroller = () => {
           priority
         /></li>
       <li> <Image
+          className="imageStyle"
           src="/next.svg"
           alt="devLogo Logo"
           width={250}
@@ -45,6 +47,7 @@ const Scroller = () => {
           priority
         /> </li>
       <li> <Image
+          className="imageStyle"
           src="/nodejs-ar21.svg"
           alt="devLogo Logo"
           width={250}
@@ -52,6 +55,7 @@ const Scroller = () => {
           priority
         /> </li>
       <li> <Image
+          className="imageStyle"
           src="/reactjs-icon.svg"
           alt="devLogo Logo"
           width={250}
@@ -59,19 +63,13 @@ const Scroller = () => {
           priority
         /> </li>
       <li> <Image
+          className="imageStyle"
           src="/vercel-ar21.svg"
           alt="devLogo Logo"
           width={250}
           height={150}
           priority
         /> </li>
-      {/* <li> <Image
-          src="/javascript-horizontal.svg"
-          alt="devLogo Logo"
-          width={300}
-          height={150}
-          priority
-        /> </li> */}
     </ul>
   </div>
   );
