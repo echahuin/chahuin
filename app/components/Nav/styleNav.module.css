@@ -1,0 +1,30 @@
+.nav {
+    height: 8rem;
+    width: 100%;
+    background-color: rgb(76, 160, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 16rem 1.5rem 16rem;
+    position: fixed;
+    box-shadow: 0 0 10px rgba(104, 104, 104, 0.2); 
+    z-index: 1000;;   
+}
+.logo {
+    font-family: var(--font-logo);
+    font-size: 4rem;
+    cursor: pointer;
+}
+.items ul{
+    display: flex;
+}
+.items li{
+    list-style: none;
+    margin: 0rem 1rem 0rem 1rem;
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+}
+
+.items li:hover{
+    color: aliceblue;
+}

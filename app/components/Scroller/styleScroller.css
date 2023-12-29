@@ -1,0 +1,46 @@
+  .tag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+  }
+  
+  .tag-list li{
+    padding: 1rem;
+    background: rgb(233, 233, 233);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem  gris
+  }
+  
+  .scroller {
+    max-width: 1200px;
+    overflow: hidden;
+  }
+  .scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem
+  }
+  
+  .scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(
+      90deg,
+      transparent,
+      white 10%,
+      white 90%,
+      transparent
+    );
+    mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+  }
+  .scroller[data-animated="true"] .scroller__inner{
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 35s linear infinite;
+  }
+
+  @keyframes scroll {
+    to {
+        transform: translateX(calc(-50% - .5rem));
+    }
+  }
