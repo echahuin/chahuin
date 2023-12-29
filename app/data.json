@@ -1,18 +1,12 @@
 {
     "proyects": [
         {
-            "title": "Tsmbo Inka",
-            "description": "Atraer a los clientes es el objetivo",
+            "title": "Tambo Inka",
+            "description": "Landing page para Tambo Inka Restaurante",
             "img": "/tamboInkaScreen.png",
+            "name": "tamboInka",
             "url": "https://www.tamboinka.com.ar",
             "skills": ["jsx", "CSS"]
-        },
-        {
-            "Title": "Project 1",
-            "Description": "Este es el proyecto 1",
-            "img": "img/proyect1.jpg",
-            "url": "https://www.google.com",
-            "skills": ["HTML", "CSS", "JS"]
         }
     ]
 }

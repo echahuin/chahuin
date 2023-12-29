@@ -4,22 +4,21 @@ import styles from './styleCard.module.css'
 import Image from 'next/image'
 
 const Card = (props) => {
-    const {title, description, tags, img, url} = props.data
-    console.log(props.data)
+    const {title, description, img, url, name} = props.data
   return (
       <div className={styles.card}>
         
          <Link
- href={url}
-target="_blank"
+          href={url}
+          target="_blank"
           rel="noopener noreferrer"
         >
           <div className={styles.contImg}>
 
           <Image
           className={styles.logo}
-          src={"/tamboInkaScreen.png"}
-          alt="tamboInkaScreen"
+          src={img}
+          alt={name}
           width={500}
           height={350}
           priority
@@ -30,9 +29,7 @@ target="_blank"
           </h2>
           <p>{description}</p>
           <div className={styles.tags}>
-            <span>css</span>
-            <span>Next.js</span>
-            <span>node.js</span>
+            {props.data.skills.map((tag, index) => <span key={index}>{tag}</span>)}
           </div>
         </Link>
     </div>
