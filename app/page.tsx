@@ -29,9 +29,6 @@ export default function Home() {
             <Card data={item} key={index}/>
           )
         })}
-        {/* <Card />
-        <Card />
-        <Card /> */}
       </div>
       <div className={styles.contScroller} id='conocimientos'>
         <Scroller />

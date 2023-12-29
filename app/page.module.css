@@ -65,6 +65,19 @@
   text-transform: uppercase;
 }
 
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+  .description {
+    font-size: .9rem;
+  }
+  .logo {
+    width: 22rem;
+  }
+}
+
 /* Mobile */
 @media (max-width: 700px) {
   .grid {
@@ -73,11 +86,11 @@
     max-width: 320px;
     text-align: center;
   }
-}
-
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
-    grid-template-columns: repeat(2, 50%);
+  .description {
+    font-size: .9rem;
   }
+  .logo {
+    width: 18rem;
+  }
+  
 }
