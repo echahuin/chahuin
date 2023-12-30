@@ -2,6 +2,7 @@
     padding: 1rem 1rem;
     width: 25rem;
     height: auto;
+    border-top: 1rem solid red ;
     border-radius: var(--border-radius);
     background: rgba(var(--card-rgb), 0);
     border: 1px solid rgba(var(--card-border-rgb), 0);

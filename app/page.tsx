@@ -20,7 +20,7 @@ export default function Home() {
           src="/devLogo.svg"
           alt="devLogo Logo"
           width={450}
-          height={550}
+          height={350}
           priority
         />
       </div>
