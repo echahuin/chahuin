@@ -34,7 +34,6 @@ export default function Home() {
         <Scroller />
       </div>
       <footer className={styles.footer} >
-
       </footer>
     </div>
   )
