@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 12rem 4rem 0rem 4rem;
+  padding-top: 12rem;
   height: 100vh;
 }
 
 .description {
+padding: 2rem;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
@@ -28,7 +29,7 @@
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
-  color: rgb(4, 189, 149)
+  color: rgb(255, 255, 255)
 }
 
 .grid {
@@ -59,8 +60,8 @@
   align-items: center;
   padding: 1rem 0 1rem 0;
   font-family: var(--font-mono);
-  font-size: 0.8rem;
-  background: rgb(4, 189, 149);
+  font-size: 1.2rem;
+  /* background: rgb(4, 189, 149); */
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -76,6 +77,9 @@
   .logo {
     width: 22rem;
     height: 20rem;
+  }
+  .footer{
+    font-size: .9rem;
   }
 }
 
@@ -96,5 +100,8 @@
   }
   .contScroller{
     margin-top: 1rem;
+  }
+  .footer{
+    font-size: .8rem;
   }
 }

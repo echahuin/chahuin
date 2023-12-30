@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import Scroller from './components/Scroller'
 import Card from './components/Card'
 import data from './data.json'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         <Scroller />
       </div>
       <footer className={styles.footer} >
+        <Footer />
       </footer>
     </div>
   )
