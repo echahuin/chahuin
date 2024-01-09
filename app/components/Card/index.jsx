@@ -24,10 +24,12 @@ const Card = (props) => {
           priority
           />
           </div>
-          <h2>
-            {title}
-          </h2>
-          <p>{description}</p>
+          <div className={styles.contDetail}>
+            <h2>
+              {title}
+            </h2>
+            <p>{description}</p>
+          </div>
           <div className={styles.tags}>
             {props.data.skills.map((tag, index) => <span key={index}>{tag}</span>)}
           </div>

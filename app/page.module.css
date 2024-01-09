@@ -17,7 +17,10 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  /* opacity: 0.6; */
+
 }
+
 
 .description a {
   display: flex;
@@ -69,6 +72,17 @@
   text-transform: uppercase;
 }
 
+.present {
+  font-family: var(--font-mono);
+  padding: 2rem;
+  width: 50rem;
+  /* background-color: rgb(255, 255, 255); */
+}
+.present p{
+  font-size: 1.2rem;
+  font-family: var(--font-mono);
+  opacity: 0.6;
+}
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
@@ -83,6 +97,10 @@
   }  .footer{
     font-size: .9rem;
   }
+  .present {
+    width: 40rem;
+    font-size: 1rem
+  }
 }
 
 /* Mobile */
@@ -92,7 +110,7 @@
   }
   .grid {
     grid-template-columns: 1fr;
-    margin-bottom: 120px;
+    margin-bottom: 1rem;
     max-width: 320px;
     text-align: center;
   }
@@ -108,5 +126,12 @@
   }
   .footer{
     font-size: .8rem;
+  }
+  .present{
+  
+    width: 100%;
+  }
+  .present p{
+    font-size: .9rem;
   }
 }

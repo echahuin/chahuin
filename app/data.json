@@ -6,63 +6,18 @@
             "img": "/tamboInkaScreen.png",
             "name": "tamboInka",
             "url": "https://www.tamboinka.com.ar",
-            "skills": ["jsx", "CSS"]
+            "skills": ["jsx", "CSS"],
+            "gitHub": "https://www.github"
         },
         {
-            "title": "Tambo Inka",
-            "description": "Landing page para Tambo Inka Restaurante",
-            "img": "/tamboInkaScreen.png",
-            "name": "tamboInka",
-            "url": "https://www.tamboinka.com.ar",
-            "skills": ["jsx", "CSS"]
-        },
-        {
-            "title": "Tambo Inka",
-            "description": "Landing page para Tambo Inka Restaurante",
-            "img": "/tamboInkaScreen.png",
-            "name": "tamboInka",
-            "url": "https://www.tamboinka.com.ar",
-            "skills": ["jsx", "CSS"]
-        },
-        {
-            "title": "Tambo Inka",
-            "description": "Landing page para Tambo Inka Restaurante",
-            "img": "/tamboInkaScreen.png",
-            "name": "tamboInka",
-            "url": "https://www.tamboinka.com.ar",
-            "skills": ["jsx", "CSS"]
-        },
-        {
-            "title": "Tambo Inka",
-            "description": "Landing page para Tambo Inka Restaurante",
-            "img": "/tamboInkaScreen.png",
-            "name": "tamboInka",
-            "url": "https://www.tamboinka.com.ar",
-            "skills": ["jsx", "CSS"]
-        },
-        {
-            "title": "Tambo Inka",
-            "description": "Landing page para Tambo Inka Restaurante",
-            "img": "/tamboInkaScreen.png",
-            "name": "tamboInka",
-            "url": "https://www.tamboinka.com.ar",
-            "skills": ["jsx", "CSS"]
-        },
-        {
-            "title": "Tambo Inka",
-            "description": "Landing page para Tambo Inka Restaurante",
-            "img": "/tamboInkaScreen.png",
-            "name": "tamboInka",
-            "url": "https://www.tamboinka.com.ar",
-            "skills": ["jsx", "CSS"]
-        },
-        {
-            "title": "Tambo Inka",
-            "description": "Landing page para Tambo Inka Restaurante",
-            "img": "/tamboInkaScreen.png",
-            "name": "tamboInka",
-            "url": "https://www.tamboinka.com.ar",
-            "skills": ["jsx", "CSS"]
+            "title": "Store chahuin",
+            "description": "Página auto administrable de e-Commerce, es un proyecto final realizado despues del curo de nexts en coderHouse.",
+            "img": "/store-screen.png",
+            "name": "storeChahuin",
+            "url": "https://store-chahuin.vercel.app/",
+            "skills": ["jsx", "CSS", "Nexts", "Firebase", "React", "vercel", "node"],
+            "gitHub": "https://www.github"
+
         }
     ]
 }

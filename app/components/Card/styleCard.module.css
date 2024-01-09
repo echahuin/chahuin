@@ -1,10 +1,10 @@
 .card {
     padding: 1rem 1rem;
+    margin: 1rem;
     width: 25rem;
     height: auto;
-    border-top: 1rem solid red ;
+    border: 1px solid rgb(228, 228, 228) !important;
     border-radius: var(--border-radius);
-    background: rgba(var(--card-rgb), 0);
     border: 1px solid rgba(var(--card-border-rgb), 0);
     transition: background 200ms, border 200ms;
   }
@@ -41,6 +41,7 @@
   .tags {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .tags span{
     font-family: var(--font-mono);
@@ -50,6 +51,13 @@
     padding: .5rem;
     color: rgb(4, 189, 149);
     padding-top: 1.5rem
+  }
+  .contDetail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: .5rem;
   }
 
   /* Enable hover only on non-touch devices */
@@ -76,7 +84,9 @@
       padding: 4rem;
     }
     .card {
-      padding: 1rem 2.5rem;
+      padding: 0;
+      width: 100%;
+      margin: 1rem;
     }
   
     .card h2 {
@@ -136,5 +146,11 @@
         rgb(var(--background-end-rgb)) 40%
       );
       z-index: 1;
+    }
+    .tags{
+      margin-top: 1rem
+    }
+    .tags span{
+      padding-top: 0rem;
     }
   }

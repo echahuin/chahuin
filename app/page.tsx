@@ -31,6 +31,10 @@ export default function Home() {
           )
         })}
       </div>
+      <div className={styles.present}>
+        <h1>Presentacion</h1>
+        <p>Apasionado por el diseño y desarrollo, busco crear experiencias excepcionales y mejorar constantemente mis habilidades tecnológicas para ofrecer productos de alta calidad.</p>
+      </div>
       <div className={styles.contScroller} id='conocimientos'>
         <Scroller />
       </div>
