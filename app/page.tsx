@@ -27,7 +27,7 @@ export default function Home() {
             priority
             />
         </div>
-        {/* <button className={styles.buttonDownloadCv}>Download CV</button> */}
+        <div className={styles.buttonDownloadCv}>Download CV</div>
       </div>
 
       <div className={styles.grid} id='proyectos'>
