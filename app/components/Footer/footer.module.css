@@ -14,6 +14,10 @@
     --font-logo: 'Tangerine', cursive;
     color: rgb(5, 5, 5);
     font-weight: 300;
+    /* padding */
+}
+.contactos{
+    padding-top: 2rem;
 }
 
 .socialContact a{
@@ -21,6 +25,7 @@
 }
 
 .infoContact {
+    /* padding-top: 2rem; */
     display: flex;
     align-items: center;
 }

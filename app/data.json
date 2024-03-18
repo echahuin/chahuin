@@ -15,7 +15,17 @@
             "img": "/store-screen.png",
             "name": "storeChahuin",
             "url": "https://store-chahuin.vercel.app/",
-            "skills": ["jsx", "CSS", "Nexts", "Firebase", "React", "vercel", "node"],
+            "skills": ["CSS", "Nexts", "Firebase", "node"],
+            "gitHub": "https://www.github"
+
+        },
+        {
+            "title": "Tabla en vivo",
+            "description": "Aplicacion donde se actualizan los datos de una tabla en tiempo real.",
+            "img": "/store-screen.png",
+            "name": "tableLive",
+            "url": "https://store-chahuin.vercel.app/",
+            "skills": ["javascript", "socket.io", "css", "node"],
             "gitHub": "https://www.github"
 
         }

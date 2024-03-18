@@ -5,6 +5,12 @@ import Image from 'next/image'
 
 const Card = (props) => {
     const {title, description, img, url, name} = props.data
+
+    const truncateWords = (str, num) => {
+      const truncated = str && str.length > num ? str.substring(0, num) + '...' : str;
+      return truncated;
+    }
+  
   return (
       <div className={styles.card}>
         
@@ -28,7 +34,7 @@ const Card = (props) => {
             <h2>
               {title}
             </h2>
-            <p>{description}</p>
+            <p>{truncateWords(description, 40)}</p>
           </div>
           <div className={styles.tags}>
             {props.data.skills.map((tag, index) => <span key={index}>{tag}</span>)}

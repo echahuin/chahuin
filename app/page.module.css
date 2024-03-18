@@ -6,6 +6,20 @@
   padding-top: 12rem;
   height: 100vh;
 }
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 75%;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.buttonDownloadCv{
+  padding: 1.5rem;
+  background-color: #026e00;
+  color: white;
+}
 
 .description {
   padding: 2rem;
@@ -17,10 +31,13 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
-  /* opacity: 0.6; */
+  color: rgb(61, 61, 61);
 
 }
-
+.center{
+  /* background-color: red; */
+  height: 35rem;
+}
 
 .description a {
   display: flex;
@@ -32,11 +49,11 @@
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
-  color: #ECAA27;
+  color: #026e00;
 }
 
 .grid {
-  border-top: 1px solid #ECAA27;
+  /* border-top: 1px solid #ECAA27; */
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -53,8 +70,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-bottom: 120px;
-  margin-top: 5rem;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
 }
 
 .footer {
@@ -74,8 +91,10 @@
 
 .present {
   font-family: var(--font-mono);
-  padding: 2rem;
+  padding: 12rem 2rem 6rem 2rem;
   width: 50rem;
+  text-align: center;
+  /* background:red; */
   /* background-color: rgb(255, 255, 255); */
 }
 .present p{

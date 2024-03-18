@@ -34,40 +34,40 @@ const Scroller = () => {
           className="imageStyle"
           src="/css.svg"
           alt="devLogo Logo"
-          width={250}
-          height={150}
+          width={200}
+          height={80}
           priority
         /></li>
       <li> <Image
           className="imageStyle"
           src="/next.svg"
           alt="devLogo Logo"
-          width={250}
-          height={150}
+          width={200}
+          height={80}
           priority
         /> </li>
       <li> <Image
           className="imageStyle"
           src="/nodejs-ar21.svg"
           alt="devLogo Logo"
-          width={250}
-          height={150}
+          width={200}
+          height={80}
           priority
         /> </li>
       <li> <Image
           className="imageStyle"
           src="/reactjs-icon.svg"
           alt="devLogo Logo"
-          width={250}
-          height={150}
+          width={200}
+          height={80}
           priority
         /> </li>
       <li> <Image
           className="imageStyle"
           src="/vercel-ar21.svg"
           alt="devLogo Logo"
-          width={250}
-          height={150}
+          width={200}
+          height={80}
           priority
         /> </li>
     </ul>
