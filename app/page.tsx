@@ -12,8 +12,8 @@ export default function Home() {
       <div className={styles.banner}>
         <div className={styles.description}>
           <p>
-            Frontend developer&nbsp;
-            <code className={styles.code}>dev-chahuin</code>
+            Creado por&nbsp;
+            <code className={styles.code}>Dev-Chahuin</code>
           </p>
         </div>
         
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
 
       <div className={styles.present}>
-        <p>Apasionado por el diseño y desarrollo, busco crear experiencias excepcionales y mejorar constantemente mis habilidades tecnológicas para ofrecer productos de alta calidad.</p>
+        <p>Impulsado por la pasión por el diseño y desarrollo, mi objetivo es crear experiencias excepcionales. Me dedico a mejorar continuamente mis habilidades tecnológicas para ofrecer productos de alta calidad que satisfagan las necesidades de los usuarios.</p>
       </div>
 
       <div className={styles.contScroller} id='conocimientos'>

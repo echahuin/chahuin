@@ -20,6 +20,7 @@
   font-family: var(--font-mono);
   font-size: 1rem;
   background-color: #026e00;
+  opacity: .5;
   color: white;
   box-shadow: 0 0 5px #026e00;
 }
