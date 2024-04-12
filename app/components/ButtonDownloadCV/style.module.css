@@ -1,0 +1,31 @@
+.buttonDownloadCv{
+    padding: 1.5rem;
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    background-color: #026e00;
+    /* opacity: .5; */
+    color: white;
+    box-shadow: 0 0 5px #026e00;
+    cursor: pointer;
+}
+.buttonDownloadCv:active{
+  box-shadow: 0 0 5px #ffffff;
+}
+
+  @media (min-width: 701px) and (max-width: 1120px) {
+
+    .buttonDownloadCv{
+        font-size: .9rem;
+      }
+
+}
+
+@media (max-width: 700px) {
+
+    
+  .buttonDownloadCv{
+    padding: 1rem;
+    font-size: .8rem;
+    /* padding: .5 rem; */
+  }
+}

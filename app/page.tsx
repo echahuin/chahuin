@@ -4,6 +4,7 @@ import Scroller from './components/Scroller'
 import Card from './components/Card'
 import data from './data.json'
 import Footer from './components/Footer'
+import ButtonDownloadCV from './components/ButtonDownloadCV'
 
 export default function Home() {
 
@@ -27,7 +28,8 @@ export default function Home() {
             priority
             />
         </div>
-        <div className={styles.buttonDownloadCv}>Download CV</div>
+        <ButtonDownloadCV />
+        {/* <div className={styles.buttonDownloadCv}>Download CV</div> */}
       </div>
 
       <div className={styles.grid} id='proyectos'>

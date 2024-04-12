@@ -15,15 +15,6 @@
   width: 100%;
   /* background-color: aqua; */
 }
-.buttonDownloadCv{
-  padding: 1.5rem;
-  font-family: var(--font-mono);
-  font-size: 1rem;
-  background-color: #026e00;
-  opacity: .5;
-  color: white;
-  box-shadow: 0 0 5px #026e00;
-}
 
 .description {
   padding: 2rem;
@@ -114,10 +105,6 @@
   .description {
     font-size: .9rem;
   }
-  .buttonDownloadCv{
-    font-size: .9rem;
-    /* padding: .5rem; */
-  }
   .logo {
     width: 22rem;
     height: 20rem;
@@ -140,11 +127,6 @@
     margin-bottom: 1rem;
     max-width: 320px;
     text-align: center;
-  }
-  .buttonDownloadCv{
-    padding: 1rem;
-    font-size: .8rem;
-    /* padding: .5 rem; */
   }
   .description {
     font-size: .9rem;
