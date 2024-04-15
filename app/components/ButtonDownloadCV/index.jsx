@@ -20,7 +20,9 @@ const ButtonDownloadCV = () => {
     }
 
     return (
-        <div className={styles.buttonDownloadCv} onClick={()=>getDoc()}>Download CV</div>
+        <button className={styles.buttonDownloadCv} onClick={()=>getDoc()}>
+            <span>Download CV</span>
+        </button>
     )
 
 }
