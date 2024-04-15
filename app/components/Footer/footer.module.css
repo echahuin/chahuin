@@ -1,7 +1,7 @@
 .footer{
     font-family: var(--font-mono);
     width: 70rem;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     background-color: rgb(224, 224, 224);
     font-size: 1rem;
     padding: 2rem;
